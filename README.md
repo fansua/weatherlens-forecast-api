@@ -32,9 +32,9 @@ In the project directory, you can run:
     -  docker pull fansua/weatherlens-fe 
 
    run docker images using the following commands:
-    - docker run -d -p3005:3005 --name weatherlens-geocode-api weatherlens-geocode-api:latest
-    - docker run -d -p3006:3006 --name weatherlens-forecast-api weatherlens-forecast-api:latest
-    - docker run -d -p3000:3000 --name weatherlens-fe weatherlens-fe:latest
+    - docker run -d -p3005:3005 --name weatherlens-geocode-api fansua/weatherlens-geocode-api:latest
+    - docker run -d -p3006:3006 --name weatherlens-forecast-api fansua/weatherlens-forecast-api:latest
+    - docker run -d -p3000:3000 --name weatherlens-fe fansua/weatherlens-fe:latest
 
 
    Launch UI from browser using: http://localhost:3000/
